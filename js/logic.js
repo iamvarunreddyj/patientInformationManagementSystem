@@ -3,19 +3,19 @@ var patientMS = angular.module('pms', ['ngRoute']);
 patientMS.config(['$routeProvider',function($routeProvider){
     $routeProvider
         .when('/', {
-            templateUrl: '../html/home.html',
+            templateUrl: './html/home.html',
             controller: 'homeController'
         })
         .when('/results', {
-            templateUrl: '../html/results.html',
+            templateUrl: './html/results.html',
             controller: 'resultsController'
         })
         .when('/addentry', {
-            templateUrl: '../html/addentry.html',
+            templateUrl: './html/addentry.html',
             controller: 'addController'
         })
         .when('/records', {
-            templateUrl: '../html/results.html',
+            templateUrl: './html/results.html',
             controller: 'recordsController'
         })
 }]);
