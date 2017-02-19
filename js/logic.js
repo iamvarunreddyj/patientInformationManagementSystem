@@ -87,7 +87,7 @@ patientMS.service('linkService',[function() {
 patientMS.directive('listResults', function() {
     return {
         restrict : 'AEC',
-        templateUrl: '../html/template.html',
+        templateUrl: './html/template.html',
         replace : true,
         scope: {
             patientsObject: '='
